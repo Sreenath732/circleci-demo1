@@ -3,7 +3,6 @@ from main import Add
 
 def TestAdd():
         assert Add(2,3) == 5
-
 	assert Add(3,3) == 6
 	assert Add(5,5) == 10
 	assert Add(7,5) == 12
