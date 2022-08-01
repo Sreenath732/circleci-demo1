@@ -6,7 +6,8 @@ def TestAdd():
 	assert Add(3,3) == 6
 	assert Add(5,5) == 10
 	assert Add(7,5) == 12
+	assert Add(7,10) == 17
         print("Add Function works correctly")
 
 if __name__ == '__main__':
-        TestAdd()
+       TestAdd()
